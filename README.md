@@ -1,7 +1,7 @@
-Role Name
+Ruby
 =========
 
-Provides X for your system.
+Provides Ruby for your system.
 
 Requirements
 ------------
@@ -25,13 +25,7 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.ROLE
-
-  tasks:
-    - name: some task
-      copy:
-        src: files/somefile
-        dest: /some/location
+    - robertdebock.ruby
 ```
 
 License
