@@ -22,10 +22,12 @@ galaxy_info:
     - 26
   - name: Ubuntu
     versions:
-    - xenial
     - artful
 
   galaxy_tags:
+    - ruby
+    - installer
+    - package
     - Alpine
     - CentOS
     - Debian
