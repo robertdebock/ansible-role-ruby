@@ -7,4 +7,4 @@
 
   tasks:
     - name: test of ruby can report a version.
-      shell: ruby --versiom
+      shell: ruby --version
