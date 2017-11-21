@@ -3,4 +3,4 @@
 - name: install software
   package:
     name: ruby
-    state: latest
+    state: present
