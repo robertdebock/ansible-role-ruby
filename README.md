@@ -1,4 +1,4 @@
-Ruby
+ansible-role-ruby
 =========
 
 Provides Ruby for your system.
@@ -16,7 +16,7 @@ None known.
 Dependencies
 ------------
 
-- robertdebock.bootstrap
+- robertdebock.ansible-role-bootstrap
 
 Example Playbook
 ----------------
@@ -25,7 +25,7 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.ruby
+    - robertdebock.ansible-role-ruby
 ```
 
 License

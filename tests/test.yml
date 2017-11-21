@@ -3,7 +3,7 @@
   remote_user: root
 
   roles:
-    - ruby
+    - ansible-role-ruby
 
   tasks:
     - name: test of ruby can report a version.
