@@ -2,5 +2,6 @@
 # tasks file for ansible-role-ruby
 - name: install software
   package:
-    name: ruby
+    name: "{{ item }}"
     state: present
+  with_items: "{{ packages }}"
