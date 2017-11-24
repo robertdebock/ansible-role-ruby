@@ -20,6 +20,11 @@ Dependencies
 
 - robertdebock.ansible-role-bootstrap
 
+Download the dependencies by issueing this command:
+```
+ansible-galaxy install --role-file requirements.yml
+```
+
 Example Playbook
 ----------------
 
@@ -27,7 +32,7 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.ansible-role-ruby
+    - ansible-role-ruby
 ```
 
 License
