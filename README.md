@@ -1,7 +1,7 @@
 ruby
 =========
 
-[![Build Status](https://travis-ci.org/robertdebock.ansible-role-ruby.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ruby)
+[![Build Status](https://travis-ci.org/robertdebock/ansible-role-ruby.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ruby)
 
 Provides Ruby for your system.
 
