@@ -1,4 +1,4 @@
 ---
-# vars file for ansible-role-ruby
+# vars file for ruby
 packages:
   - ruby

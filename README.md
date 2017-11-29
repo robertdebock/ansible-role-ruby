@@ -1,7 +1,7 @@
-ansible-role-ruby
+ruby
 =========
 
-[![Build Status](https://travis-ci.org/robertdebock/ansible-role-ruby.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ruby)
+[![Build Status](https://travis-ci.org/robertdebock.ansible-role-ruby.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ruby)
 
 Provides Ruby for your system.
 
@@ -18,7 +18,7 @@ None known.
 Dependencies
 ------------
 
-- robertdebock.ansible-role-bootstrap
+- robertdebock.bootstrap
 
 Download the dependencies by issuing this command:
 ```
@@ -32,10 +32,10 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.ansible-role-ruby
+    - robertdebock.ruby
 ```
 
-Install this role using `galaxy install robertdebock.ansible-role-ruby`.
+Install this role using `galaxy install robertdebock.ruby`.
 
 License
 -------
