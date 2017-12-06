@@ -6,3 +6,8 @@
 
   roles:
     - role: ansible-role-ruby
+
+  tasks:
+    - name: install a gem
+      gem:
+        name: vagrant
