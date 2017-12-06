@@ -1,4 +1,4 @@
 ---
 ruby_packages:
-  - ruby
   - rubygems
+  - ruby

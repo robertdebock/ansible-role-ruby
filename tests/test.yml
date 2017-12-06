@@ -6,5 +6,6 @@
     - ansible-role-ruby
 
   tasks:
-    - name: test of ruby can report a version.
-      shell: ruby --version
+    - name: install a gem
+      gem:
+        name: vagrant
