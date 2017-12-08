@@ -1,14 +1,10 @@
 ---
 # tasks file for ruby
-- name: include distribution specific variables
-  include_vars: "{{ item }}"
-  with_first_found:
-    - "ruby.{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
-    - "ruby.{{ ansible_distribution }}.yml"
-    - "ruby.default.yml"
-
 - name: install software
   package:
     name: "{{ item }}"
     state: present
-  with_items: "{{ ruby_packages }}"
+  with_items:
+    - "{{ ruby_packages[ansible_distribution ~ '-' ~ ansible_distribution_major_version]
+      | default(ruby_packages[ansible_distribution]
+      | default(ruby_packages['default'] )) }}"
