@@ -5,7 +5,7 @@
   gather_facts: no
 
   roles:
-    - role: robertdebock.ruby
+    - role: ansible-role-ruby
 
   tasks:
     - name: install a gem
