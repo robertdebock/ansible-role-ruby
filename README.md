@@ -18,6 +18,8 @@ None known.
 Dependencies
 ------------
 
+You can prepare your system by appending this role:
+
 - robertdebock.bootstrap
 
 Download the dependencies by issuing this command:
@@ -32,7 +34,8 @@ Example Playbook
 - hosts: servers
 
   roles:
-    - robertdebock.ruby
+    - role: robertdebock.bootstrap
+    - role: robertdebock.ruby
 ```
 
 Install this role using `galaxy install robertdebock.ruby`.
