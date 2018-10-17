@@ -1,0 +1,8 @@
+---
+# vars file for ruby
+ruby_packages:
+  default:
+    - ruby
+  CentOS-6:
+    - ruby
+    - rubygems
