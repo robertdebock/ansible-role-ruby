@@ -2,5 +2,4 @@
 # tasks file for ruby
 - name: install ruby
   package:
-    name: "{{ ruby_packages[ansible_distribution]
-          | default(ruby_packages['default']) }}"
+    name: "{{ ruby_packages }}"

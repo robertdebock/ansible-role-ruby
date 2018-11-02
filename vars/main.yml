@@ -1,8 +1,10 @@
 ---
 # vars file for ruby
-ruby_packages:
+_ruby_packages:
   default:
     - ruby
   CentOS-6:
     - ruby
     - rubygems
+
+ruby_packages: "{{ _ruby_packages[ansible_distribution] | default(_ruby_packages['default']) }}"
