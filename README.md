@@ -68,13 +68,13 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
-|centos-6|no|no|no*|
+|centos-6|yes|yes|yes*|
 |centos-latest|yes|yes|yes*|
 |debian-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
-|fedora-latest|no|no|no*|
-|fedora-rawhide*|no|no|no*|
+|fedora-latest|yes|yes|yes*|
+|fedora-rawhide*|yes|yes|yes*|
 |opensuse-leap|yes|yes|yes*|
 |opensuse-tumbleweed|yes|yes|yes*|
 |ubuntu-artful|yes|yes|yes*|
