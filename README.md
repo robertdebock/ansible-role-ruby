@@ -9,7 +9,7 @@ Example Playbook
 ----------------
 
 This example is taken from `molecule/default/playbook.yml`:
-```
+```yaml
 ---
 - name: Converge
   hosts: all
@@ -26,7 +26,7 @@ Role Variables
 --------------
 
 These variables are set in `defaults/main.yml`:
-```
+```yaml
 ---
 # defaults file for ruby
 
@@ -43,9 +43,11 @@ Requirements
 
 The following roles can be installed to ensure all requirements are met, using `ansible-galaxy install -r requirements.yml`:
 
+```yaml
 ---
 - robertdebock.bootstrap
 
+```
 
 Context
 -------
@@ -66,13 +68,13 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
-|centos-6|yes|yes|yes*|
+|centos-6|no|no|no*|
 |centos-latest|yes|yes|yes*|
 |debian-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
-|fedora-latest|yes|yes|yes*|
-|fedora-rawhide*|yes|yes|yes*|
+|fedora-latest|no|no|no*|
+|fedora-rawhide*|no|no|no*|
 |opensuse-leap|yes|yes|yes*|
 |opensuse-tumbleweed|yes|yes|yes*|
 |ubuntu-artful|yes|yes|yes*|
@@ -99,9 +101,13 @@ To test on Amazon EC2, configure [~/.aws/credentials](https://docs.aws.amazon.co
 There are many specific scenarios available, please have a look in the `molecule/` directory.
 
 Run the [ansible-galaxy](https://github.com/ansible/galaxy-lint-rules) and [my](https://github.com/robertdebock/ansible-lint-rules) lint rules if you want your change to be merges:
-```
-ansible-lint -r /path/to/galaxy-lint-rules/rules .
-ansible-lint -r /path/to/ansible-lint-rules/rules .
+
+```shell
+git clone https://github.com/ansible/ansible-lint.git /tmp/ansible-lint
+ansible-lint -r /tmp/ansible-lint/lib/ansiblelint/rules .
+
+git clone https://github.com/robertdebock/ansible-lint /tmp/my-ansible-lint
+ansible-lint -r /tmp/my-ansible-lint/rules .
 ```
 
 License
