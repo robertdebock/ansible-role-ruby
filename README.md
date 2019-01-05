@@ -3,7 +3,7 @@ ruby
 
 [![Build Status](https://travis-ci.org/robertdebock/ansible-role-ruby.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ruby)
 
-The purpose of this role is to install ruby on your system.
+Install ruby on your system.
 
 Example Playbook
 ----------------
