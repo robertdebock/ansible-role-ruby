@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: ruby-opensuse-leap
     image: opensuse:leap
-  - name: ruby-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: ruby-ubuntu-latest
     image: ubuntu:latest
   - name: ruby-ubuntu-rolling
