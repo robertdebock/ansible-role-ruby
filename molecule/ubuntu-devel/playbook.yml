@@ -1,9 +1,8 @@
 ---
 - name: Converge
   hosts: all
-  gather_facts: no
+  gather_facts: yes
   become: yes
 
   roles:
-    - robertdebock.bootstrap
     - ansible-role-ruby
