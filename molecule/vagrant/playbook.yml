@@ -1,8 +1,0 @@
----
-- name: Converge
-  hosts: all
-  gather_facts: yes
-  become: yes
-
-  roles:
-    - ansible-role-ruby
