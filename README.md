@@ -41,9 +41,6 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for ruby
-
-# To update all packages installed by this roles, set `ruby_package_state` to `latest`.
-ruby_package_state: present
 ```
 
 Requirements
