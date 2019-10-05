@@ -6,6 +6,9 @@ ruby
 
 Install ruby on your system.
 
+<img src="https://img.shields.io/ansible/role/d/21976"/>
+<img src="https://img.shields.io/ansible/quality/21976"/>
+
 Example Playbook
 ----------------
 
@@ -83,7 +86,7 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
-|centos-6|yes|yes|yes*|
+|centos-7|yes|yes|yes*|
 |centos-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
