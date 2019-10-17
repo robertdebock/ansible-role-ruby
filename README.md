@@ -6,8 +6,8 @@ ruby
 
 Install ruby on your system.
 
-<img src="https://img.shields.io/ansible/role/d/"/>
-<img src="https://img.shields.io/ansible/quality/"/>
+<img src="https://img.shields.io/ansible/role/d/21976"/>
+<img src="https://img.shields.io/ansible/quality/21976"/>
 
 Example Playbook
 ----------------
