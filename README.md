@@ -2,9 +2,9 @@
 
 Install ruby on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-ruby.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ruby)|[![github](https://github.com/robertdebock/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ruby/actions)|[![quality](https://img.shields.io/ansible/quality/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![downloads](https://img.shields.io/ansible/role/d/21976)](https://galaxy.ansible.com/robertdebock/ruby)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-ruby.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ruby)|[![github](https://github.com/robertdebock/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ruby/actions)|[![quality](https://img.shields.io/ansible/quality/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![downloads](https://img.shields.io/ansible/role/d/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ruby.svg)](https://github.com/robertdebock/ansible-role-ruby/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
