@@ -1,4 +1,5 @@
 ---
 # vars file for ruby
+
 ruby_packages:
   - ruby
