@@ -39,7 +39,5 @@ galaxy_info:
     - ruby
     - installer
     - package
-    - centos
-    - redhat
 
 dependencies: []
