@@ -1,5 +1,6 @@
 ---
 # tasks file for ruby
+
 - name: install ruby
   package:
     name: "{{ ruby_packages }}"
