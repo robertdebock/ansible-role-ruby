@@ -2,9 +2,9 @@
 
 Install ruby on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-ruby.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ruby)|[![github](https://github.com/robertdebock/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ruby/actions)|[![quality](https://img.shields.io/ansible/quality/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![downloads](https://img.shields.io/ansible/role/d/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ruby.svg)](https://github.com/robertdebock/ansible-role-ruby/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-ruby.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-ruby)|[![github](https://github.com/robertdebock/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ruby/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-ruby/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-ruby)|[![quality](https://img.shields.io/ansible/quality/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![downloads](https://img.shields.io/ansible/role/d/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ruby.svg)](https://github.com/robertdebock/ansible-role-ruby/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -37,10 +37,11 @@ Also see a [full explanation and example](https://robertdebock.nl/how-to-use-the
 
 ## [Requirements](#requirements)
 
-- Access to a repository containing packages, likely on the internet.
-- A recent version of Ansible. (Tests run on the current, previous and next release of Ansible.)
+- pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-ruby/blob/master/requirements.txt).
 
 ## [Status of requirements](#status-of-requirements)
+
+The following roles are used to prepare a system. You may choose to prepare your system in another way, I have tested these roles as well.
 
 | Requirement | Travis | GitHub |
 |-------------|--------|--------|
@@ -112,10 +113,6 @@ image="debian" tag="stable" tox
 ## [License](#license)
 
 Apache-2.0
-
-## [Contributors](#contributors)
-
-I'd like to thank everybody that made contributions to this repository. It motivates me, improves the code and is just fun to collaborate.
 
 
 ## [Author Information](#author-information)
