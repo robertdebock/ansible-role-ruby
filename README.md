@@ -2,9 +2,9 @@
 
 Install ruby on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ruby/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-ruby/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-ruby)|[![quality](https://img.shields.io/ansible/quality/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![downloads](https://img.shields.io/ansible/role/d/21976)](https://galaxy.ansible.com/robertdebock/ruby)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ruby.svg)](https://github.com/robertdebock/ansible-role-ruby/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-ruby/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-ruby/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-ruby/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-ruby)|[![downloads](https://img.shields.io/ansible/role/d/24583)](https://galaxy.ansible.com/robertdebock/ruby)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-ruby.svg)](https://github.com/robertdebock/ansible-role-ruby/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -76,7 +76,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-ruby/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-ruby/issues).
 
 ## [License](#license)
 
