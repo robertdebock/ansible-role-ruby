@@ -1,4 +1,4 @@
-# Ansible role [ruby](#ruby)
+# [Ansible role ruby](#ruby)
 
 Install ruby on your system.
 
