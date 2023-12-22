@@ -1,5 +1,7 @@
 # [Ansible role ruby](#ruby)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install ruby on your system.
 
 |GitHub|GitLab|Downloads|Version|
